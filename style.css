@@ -1,0 +1,145 @@
+body{
+    min-height: 100vh;
+    background: linear-gradient(to left, rgb(71, 5, 5), rgb(0, 0, 0));
+}
+.cab{
+    width: 1299px;
+    height: 70px;
+    background-color: rgb(255, 0, 0);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 999;
+}
+.pad{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top: -12px;
+    left: 10px;
+}
+.leed{
+    color: rgb(255, 255, 255);
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 30px;
+    position: absolute;
+    top: -9px;
+    left: 1180px;
+}
+.pf1{
+    position: absolute;
+    top: -50px;
+    left: 0px;
+    width: 1299px;
+    opacity: 70%;
+    z-index: 998;
+}
+.info{
+    position: absolute;
+    top: 70px;
+    left: 20px;
+    color: white;
+    z-index: 1000;
+}
+.divi{
+    background-color: white;
+    border-radius: 500px;
+    height: 3px;
+    width: 400px;
+    position: relative;
+    top: -140px;
+    left: 340px;
+    rotate: 90deg;
+}
+.bta{
+    font-size: 20px;
+    font-family: 'bebas neue', sans-serif;
+    color: white;
+    width: 140px;
+    height: 60px;
+    position: relative;
+    top: -190px;
+    left: 895px;
+    background-color: rgba(255, 255, 255, 0);
+    border: solid 2px white;
+    border-radius: 10px;
+    text-shadow: none;
+    transition: color, border 300ms ease-out;
+}
+.bta:hover{
+    color: rgba(255, 255, 255, 0.767);
+    border: solid 2px rgba(255, 255, 255, 0.767);
+}
+.bar{
+    background-color: white;
+    border-radius: 500px;
+    height: 1px;
+    width: 1100px;
+    position: absolute;
+    top: 446px;
+    left: -20px;
+}
+.dec{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 350px;
+    left: 1079px;
+    background-color: red;
+    border-radius: 20px 0px 0px 20px;
+}
+
+/*CARROSEL*/
+
+.carrosel{
+    top: 520px;
+    left: 290px;
+    max-width: 700px;
+    overflow: hidden;
+    position: relative;
+}
+.slides{
+    display: flex;
+    transform: translate(-0%);
+    transition: transform 0.5s ease;
+}
+.slides img {
+    display: block;
+    max-width: 100%;
+}
+.esquerda{
+    left: 10px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 40px;
+    height: 40px;
+    background-color: rgba(255, 255, 255, 0);
+    color: white;
+    border: none;
+    text-shadow: 3px 3px 3px red;
+    font-size: 50px;
+    cursor: pointer;
+    transition: color 300ms ease-out;
+}
+.esquerda:hover{
+    color: rgba(255, 255, 255, 0.692);
+}
+.direita{
+    right: 10px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 40px;
+    height: 40px;
+    background-color: rgba(255, 255, 255, 0);
+    color: white;
+    border: none;
+    text-shadow: 3px 3px 3px red;
+    font-size: 50px;
+    cursor: pointer;
+    transition: color 300ms ease-out;
+}
+.direita:hover{
+    color: rgba(255, 255, 255, 0.692);
+}
